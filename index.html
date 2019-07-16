@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Notes on MathML</title>
+    <script 
+     src='https://www.w3.org/Tools/respec/respec-w3c-common' 
+     class='remove'></script>
+    <script class='remove'>
+     var respecConfig = {
+       copyrightStart: 1998,
+        specStatus: "CG-DRAFT",
+        editors: [{
+        name: "David Carlisle",
+	company: "NAG",
+          url: "https://github.com/davidcarlisle",
+          }],
+	  wg: "MathML Refresh Community Group",
+       edDraftURI: "https://github.com/mathml-refresh/notes-on-mathml",
+         shortName: "notes-on-mathml",
+	   maxTocLevel: 4,
+	 localBiblio: {     
+"Pierce1961": {title: "Pierce1961"},
+"Cajori1928": {title: "Cajori1928"},
+"Knuth1986": {title: "Knuth1986"},
+"AAP-math": {title: "AAP-math"},
+"Poppelier1992": {title: "Poppelier1992"},
+"ISO-12083": {title: "ISO-12083"},
+"MathML1": {title: "MathML1"},
+"OpenMath2004": {title: "OpenMath2004"},
+"RELAX-NG": {title: "RELAX-NG"},
+"XMLSchemas": {title: "XMLSchemas"},
+"Namespaces": {title: "Namespaces"},
+"HTML4": {title: "HTML4"},
+"Entities": {title: "Entities"},
+"MathMLforCSS": {title: "MathMLforCSS"},
+"Chaundy1954": {title: "Chaundy1954"},
+"IEEE754": {title: "IEEE754"},
+"XMLSchemaDatatypes": {title: "XMLSchemaDatatypes"},
+"MathMLTypes": {title: "MathMLTypes"},
+"rdf": {title: "rdf"},
+"OMDoc1.2": {title: "OMDoc1.2"},
+"Abramowitz1977": {title: "Abramowitz1977"},
+"XHTML": {title: "XHTML"},
+"SVG1.1": {title: "SVG1.1"},
+"XHTML-MathML-SVG": {title: "XHTML-MathML-SVG"},
+"RelaxNGBook": {title: "RelaxNGBook"},
+"Modularization": {title: "Modularization"},
+"Normal": {title: "Normal"}
+	 }
+      };
+    </script>
+  </head>
+  <body>
+    <section id='abstract'>
+         <p>
+            This is a non normative document derived from the non normative parts of MathML3 that have been omitted from MathML4, together with new texts added as appropriate. The initial draft is essentially a copy of the current draf of MathML4.
+            
+         </p>
+    </section>
+    <section id='sotd'>
+     <p><strong>This document is an editors' copy that has no official standing. (Date: 2019-03-08)</strong></p>
+     <p><a data-cite="https://www.w3.org/community/mathml4/">MathML Refresh Community Group</a></p>
+    </section>
+    <section data-include="src/introduction.html" data-include-replace="true"></section>
+    <section data-include="src/fundamentals.html" data-include-replace="true"></section>
+    <section data-include="src/presentation-markup.html" data-include-replace="true"></section>
+    <section data-include="src/contm-new.html" data-include-replace="true"></section>
+    <section data-include="src/mixing.html" data-include-replace="true"></section>
+    <section data-include="src/world-interactions.html" data-include-replace="true"></section>
+    <section data-include="src/character-set.html" data-include-replace="true"></section>
+
+    <!-- respec doesn't support recusive inclusion currently-->
+    <section class="appendix">
+   <h2 id="parsing">Parsing MathML</h2>
+   <p>Notes on the Schemas</p>
+   <section>
+    <h3 id="parsing_mml_html">HTML</h3>
+   </section>
+   <section>
+    <h3 id="parsing_mml_xhtml">XHTML</h3>
+   </section>
+   </section>
+
+
+    
+    <section data-include="src/media-types.html" data-include-replace="true"></section>
+    <section data-include="src/operator-dict.html" data-include-replace="true"></section>
+    <section data-include="src/glossary.html" data-include-replace="true"></section>
+    <section data-include="src/contributors.html" data-include-replace="true"></section>
+    <section data-include="src/changes.html" data-include-replace="true"></section>
+<!--    
+    <section data-include="src/references.html" data-include-replace="true"></section>
+    <section data-include="src/normreferences.html" data-include-replace="true"></section>
+-->	
+
+  </body>
+</html>
